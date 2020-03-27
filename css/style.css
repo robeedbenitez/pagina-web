@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.cabecera{
+	align-items: center;
+	display: flex;
+	border: 1.5px solid white;
+	width: 100%;
+	height: 80px;
+}
+.contenedor{
+	justify-content: space-between;
+	margin: 0 auto;
+	display: flex;
+	width: 90%;
+}
+.logo{
+	align-items: center;
+	display: flex;
+	width: 110px;
+
+}
+.imagen{
+	width: 100%;
+
+}
+.menu{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 320px;
+}
+.element{
+	list-style: none;
+	
+}
+.text{
+	font-family: 'Oswald', sans-serif;
+	color: #ffaa50;
+	text-decoration:none;
+}
+.Cmedio{
+	height: 600px;
+	width: 100%;
+	display: flex;	
+	align-items: center;
+	background-color: #f7ecc8;
+}
+.imagenP{
+	width: 240px;
+}
+.foto{
+	display: flex;
+	justify-content: center;
+}
+.fotos{
+	justify-content: center;
+	display: flex;
+}
+.articulo{
+	width: 80%;
+	height:280px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.descripcion{
+	display: flex;
+	justify-content: space-between;
+}
+.autor{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.fotoperfil{
+	width: 100%;
+}
+.perfil{
+ 	border-radius: 20px;
+ 	overflow: hidden;
+  	width: 40px;
+  	height: 40px;
+  	
+}
+.button1{
+	width: 25px;
+	height: 15px;
+	background-color:#0c7e6b; 
+	border-radius: 12px;
+	border: none;
+}
+.button2{
+	width: 25px;
+	height: 15px;
+	background-color:#4477cb; 
+	border-radius: 12px;
+	border: none;
+}
+.button3{
+	width: 25px;
+	height: 15px;
+	background-color:#d13b3b; 
+	border-radius: 12px;
+	border: none;
+}
+.descripcioncontenedor{
+	background-color:white;
+
+}
+.texto{
+	font-family: 'Kaushan Script', cursive;
+}
