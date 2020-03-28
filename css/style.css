@@ -118,10 +118,30 @@
 	display: flex;
 	align-content: center;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: center;
+	height: 180px;
+	background-color: #252222;
+	
+}
+.piepaginacontenedor{
+	display: flex;
+	width: 80%;
+	color: white;
+
 }
 .piepagina1{
 	display: flex;
-	width: 80%;
+	width: 40%;
 	align-content: center;
+	
+}
+.piepagina2{
+	width: 30%;
+}
+.piepagina3{
+	width: 30%;
+}
+.piepaginalistas{
+	list-style: none;
+	text-decoration: none;
 }
