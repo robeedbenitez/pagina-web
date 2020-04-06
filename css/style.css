@@ -3,14 +3,14 @@
 	padding: 0;
 
 }
-.cabecera{
+.c{
 	align-items: center;
 	display: flex;
 	border: 1.5px solid white;
 	width: 100%;
 	height: 80px;
 }
-.contenedor{
+.cc{
 	justify-content: space-between;
 	margin: 0 auto;
 	display: flex;
@@ -20,23 +20,21 @@
 	align-items: center;
 	display: flex;
 	width: 110px;
-
 }
 .imagen{
 	width: 100%;
-
 }
-.menu{
+.cm{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 320px;
 }
-.element{
+.cme{
 	list-style: none;
-	
+
 }
-.text{
+.cmtexto{
 	font-family: 'Oswald', sans-serif;
 	color: #ffaa50;
 	text-decoration:none;
@@ -44,7 +42,7 @@
 .Cmedio{
 	height: 400px;
 	width: 100%;
-	display: flex;	
+	display: flex;
 	align-items: center;
 	background-color: #f7ecc8;
 }
@@ -83,65 +81,74 @@
  	overflow: hidden;
   	width: 40px;
   	height: 40px;
-  	
+
 }
 .button1{
 	width: 25px;
 	height: 15px;
-	background-color:#0c7e6b; 
+	background-color:#0c7e6b;
 	border-radius: 12px;
 	border: none;
 }
 .button2{
 	width: 25px;
 	height: 15px;
-	background-color:#4477cb; 
+	background-color:#4477cb;
 	border-radius: 12px;
 	border: none;
 }
 .button3{
 	width: 25px;
 	height: 15px;
-	background-color:#d13b3b; 
+	background-color:#d13b3b;
 	border-radius: 12px;
 	border: none;
 }
 .descripcioncontenedor{
 	background-color:white;
-
 }
 
 .post{
 		font-family: 'Kaushan Script', cursive;
 }
-.piepagina{
+/*pie de pagina*/
+
+.pp{
 	display: flex;
-	align-content: center;
-	width: 100%;
 	justify-content: center;
+	width: 100%;
 	height: 180px;
+	padding: 2% 0;
 	background-color: #252222;
-	
+	font-family: 'Oswald', sans-serif;
 }
-.piepaginacontenedor{
+.ppc{
+	background-color: white;
 	display: flex;
 	width: 80%;
-	color: white;
-
+	color: #252222;
+	border-radius: 15px;
 }
-.piepagina1{
+.pp1{
 	display: flex;
 	width: 40%;
 	align-content: center;
-	
+	color: #ffaa50;
 }
-.piepagina2{
+.pp2{
 	width: 30%;
 }
-.piepagina3{
+.pp3{
 	width: 30%;
 }
-.piepaginalistas{
+.ppl{
+	margin-top: 20px;
 	list-style: none;
+}
+.pple{
+
+}
+.pptexto{
 	text-decoration: none;
+	color: #ffaa50;
 }
